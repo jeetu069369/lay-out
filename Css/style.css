@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #ffffff;
+}
+/* container */
+.container{
+    width: 1200px;
+    height: 500px;
+    background-color: blue;
+    margin: 0 auto;
+}
+/*******************************
+ Header start 
+ ********************************/
+
+
+.header{
+
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+}
+.menu-bar{
+    width: 100%;
+    height: 70px;
+    background-color: #5DADE2;
+   
+
+}
+
+.menu-bar ul{}
+
+.menu-bar ul li{
+
+    list-style-type: none;
+    margin: 20px;
+    float: left;
+}
+
+.menu-bar ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+
+.menu-bar ul li a:hover{
+ 
+    text-decoration:underline;
+    color: tomato;
+    font-weight: 700px;
+
+}
+
+/*****************************
+ Header end 
+ *****************************/
+
+.div-left{
+
+    width: 20%;
+    height: 100%;
+    background-color:#F0B27A ;
+    float: left;
+}
+
+.sit-btn{
+
+}
+
+.sit-btn li{
+    list-style-type: none;
+    padding: 10px 70px;
+    border: #000;
+    background-color: #000;
+    margin: 15px;
+
+
+
+
+}
+
+.sit-btn-info{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+}
+.sit-btn-info:hover{
+    color: tomato;
+   text-decoration: underline;
+}
+
+/**************************************
+ medal slider start 
+ **************************************/
+
+.slider{
+    width: 60%;
+    height: 100%;
+    background-color:#eeeeee;
+    float: left;
+}
+
+.slider img{
+
+    width: 100%;
+    height: 300px;
+}
+
+
+/* medal slider end */
+
+
+.slider p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.div-right{
+    width: 20%;
+    height: 100%;
+    background-color:#F0B27A;
+    float: right;
+}
+/* fb hover button start */
+.fb{
+    position: fixed;
+    right: -162px;
+    top: 85%;
+}
+.fb:hover{
+    right: 0px;
+    transition: 1s;
+    cursor: pointer;
+}
+/* fb hover button end */
+
+/*********************************
+ box design start
+ **********************************/
+.box{
+  
+}
+.box h1{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    text-align: center;
+    color:turquoise;
+    text-decoration: underline;
+    margin:10px;
+}
+
+.box-div1{
+    width: 20%;
+    height: 250px;
+    background-color:#c24308;
+    float: left;
+    margin: 2.5%;
+    box-shadow: 2px 15px 25px 2px #000;
+
+}
+
+.box-div2{
+    width: 20%;
+    height: 250px;
+    background-color: #c24308;
+    float: left;
+    margin: 2.5%;
+    box-shadow: 2px 15px 25px 2px #000;
+}
+.box-div3{
+    width: 20%;
+    height: 250px;
+    background-color: #c24308;
+    float: left;
+    margin: 2.5%;
+    box-shadow: 2px 15px 25px 2px #000;
+}
+.box-div4{
+    width: 20%;
+    height: 250px;
+    background-color: #c24308;
+    float:left;
+    margin: 2.5%;
+    box-shadow: 2px 15px 25px 2px #000;
+   
+}
+.box-para{
+    margin: 15px;
+    text-align: justify;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+ /*********************************
+ box design end
+ **********************************/
+ /* clear div */
+ .clear-div{
+     clear: both;
+ }
+
+/* footer start */
+.footer{
+
+    width: 100%;
+    height: 300px;
+    background-color: yellowgreen;
+    z-index:0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer p{
+        color: #000;
+        text-align: right;
+        margin-top: 254px;
+}
+
+/* footer end */
+
+
